@@ -1,0 +1,429 @@
+* { margin: 0; padding: 0;   /*marginesy wewnetrze i zewnetrzne na 0*/
+    font-family: Sen, arial; 
+    box-sizing: border-box; }
+
+body {background-color: rgba(19, 95, 184, 1); 
+    min-width: 480px; 
+    max-width: 1000px;
+/*height: 100vh;*/
+   overflow:scroll;
+ 
+    
+    
+}
+
+.bg1{
+    background-image: url("bgbg.jpg"); 
+    background-color: aqua;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+    text-align: center;
+    padding: 10px;
+    color: azure;
+    font-size: 5vh;
+
+   /* background: rgba(60, 152, 108, 0.8); */
+    background:  rgba(19, 95, 184, 1);
+    border-radius: 10px;
+}
+
+/*img.hat{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+} */
+
+img.girl{
+    position: absolute;
+    display: block;
+    /*float: left; */
+    width: 40%;
+    top: 25%;
+    left: 5%;
+    border-radius: 50%;
+    border: 5px rgba(252, 252, 252, 0.71);
+    border-style: dashed;
+   
+}
+
+h2{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 18%;
+    text-align: center;
+    padding: 10px;
+    font-size: 5vh;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+   /* background: rgba(60, 152, 108, 0.8);
+    border-radius: 10px; */
+}
+
+h3{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 25%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 5vh;
+}
+
+h4{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 35%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 5vh;
+}
+
+/*BUTTONY ANIMACJE - szara też działa */
+
+/*h5 button{
+   position: absolute;
+    /*float: right; */
+ /*  width: 20%;a
+    height: 15%;
+    left: 58%;
+    top: 60%; 
+    text-align: center;
+    padding: 10px;
+    font-size: 5vh;
+    /*background-color: #E39828; */
+/*  background: rgba(246, 251, 17, 0.68);
+    border-radius: 40px;
+    color:azure; 
+
+}
+
+
+h6 button{
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    left: 58%;
+    top: 80%;
+    text-align: center;
+    padding: 10px;
+    font-size: 5vh;
+    background-color:rgba(246, 251, 17, 0.68);
+    border-radius: 40px;
+    color: azure;
+} 
+
+button:hover{
+    background-color: rgba(16, 88, 226, 0.45);
+    cursor: pointer;
+} 
+  */
+
+
+h5 .btn{
+    position: absolute;
+    top:55%;
+    left: 58%;
+    background: rgba(246, 251, 17, 0.68);
+    border: 3px solid transparent;
+    font-size: 26px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 10px;
+    color:white;
+    width: 20%;
+    height: 15%;
+    border-radius:40px;
+    
+    transition: color 200ms;
+}
+
+h6 .btn{
+    position: absolute;
+    top:75%;
+    left: 58%;
+    background: rgba(246, 251, 17, 0.68);
+    border: 3px solid transparent;
+    font-size: 26px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 10px;
+    color:white;
+    border-radius: 40px;
+    width: 20%;
+    height: 15%;
+    
+    transition: color 200ms;
+}
+
+
+h5 .btn:hover{
+    color:black;
+    background: transparent;
+    
+}
+
+ h5 .btn:before {
+    content: '';
+    background-color: rgba(16, 88, 226, 0.45);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    z-index: 0;
+     
+     transform: scaleX(0);
+     
+     transition: transform 400ms;
+     transform-origin: 0 1;
+     transition-timing-function:cubic-bezier(.03,.97,.9,.29); 
+}
+
+
+h5 .btn:hover::before{
+    transform: scaleX(1);
+}
+
+h6 .btn:hover{
+    color:black;
+    background: transparent;
+    
+}
+
+ h6 .btn:before {
+    content: '';
+    background-color: rgba(16, 88, 226, 0.45);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    z-index: 0;
+     
+     transform: scaleX(0);
+     
+     transition: transform 400ms;
+     transform-origin: 0 1;
+     transition-timing-function:cubic-bezier(.03,.97,.9,.29); 
+}
+
+
+h6 .btn:hover::before{
+    transform: scaleX(1);
+}
+
+/*KONIEC BUTTONÓW */
+
+
+ .separation1{
+     /*
+    background-color: aqua;
+    background-size: cover;
+    margin: 50px; */
+    width: 100vw;
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: rgba(1, 60, 175, 0.5);
+    
+}
+
+.bg2{
+    background-image: url("bg4.jpg");
+    background-color: aqua;
+    background-size:cover;
+    height: 100vh;
+    width: 100vw; 
+}
+
+.box1{
+    position: absolute;
+    font-size: 3vh;
+    color: azure;
+    text-align: center;
+    background: rgba(246, 251, 17, 0.68);
+    line-height: 45px; 
+    padding: 35px 20px;
+    top: 120%;
+    left: 10%;
+    border-radius: 40px;
+    display: block;
+    width: 25%; 
+}
+
+.box2{
+    position: absolute;
+    font-size: 3vh;
+    color: azure;
+    text-align: center;
+    background: rgba(16, 88, 226, 0.45);
+    line-height: 45px;
+    padding: 35px 20px;
+    top:120%;
+    left:60%;
+    border-radius: 40px;
+    display: block;
+    width: 25%; 
+   margin-bottom: 10px; 
+}
+
+
+.separation2{
+    width: 100vw;
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: rgba(1, 60, 175, 0.5);
+    text-align: center;
+    font-size: 3vh;
+    color:azure;
+}
+
+
+nav{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+nav a{
+    
+}
+
+a.menu{
+    display: inline-block;
+   /* width: 20vw;
+    height: 10vh; */
+    width: 14%;
+    padding: 10px 15px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    text-decoration: none;
+    /*border-bottom-style:solid; */
+    border-bottom-style: dotted;
+    border-top-style:dotted;
+    color:azure;
+    
+    transition: all 200ms ease;
+}
+
+
+nav a:hover{ /*zachowanie obiektu*/
+    background-color: rgba(0, 84, 248, 0.65);
+    border-top: 10px solid rgba(246, 251, 17, 0.68);
+    cursor: pointer;
+    
+    
+} 
+
+/*RESPONSYWNOŚĆ*/
+
+@media (max-width:800px) {
+    a.menu {
+        font-size: 10px;
+        width: 14%;
+        
+    }
+    
+    .box1{
+        font-size: 12px;
+        width: 50%;
+        
+    }
+    .box2{
+        font-size: 12px;
+        width: 50%;
+    }
+    
+    h2,h3,h4{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h5 .btn, h6 .btn{
+        font-size: 12px;
+        width: 25%;
+        height: 15%;
+    }
+    img.girl{
+        width: 25%;
+        
+    }
+    
+}
+
+
+
+footer{
+    width: 20vw;
+    height: 20vh; 
+    
+}
+
+/* jscjhwebvjbjevbhbjbvjbvjebejr4bh */
+
+/*STYLEEEEEEEE */               /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*CAREERS*/
+
+h7 {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 18%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 25px;
+    background: rgba(16, 88, 226, 0.45);
+    border-radius: 10px;
+    
+}
+
+img.career{
+    position: absolute;
+    display: block;
+    /*float: left; */
+    width: 40%;
+    top: 25%;
+    left: 5%;
+    border-radius: 5px;
+    border: 5px rgba(252, 252, 252, 0.71);
+    border-style: dashed;
+}
+
+.movie{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+
+/*
+-DOROBIĆ BUTTON DO PRZECHODZENIA DO STRONY GŁÓWNEJ Z LOGOWANIEM 
+-PODSTRONA PO LOGOWANIU Z MENU
+-PODSTRONA LOGOWANIE
+-PODSTRONA REJESTRACJI
+-UZUPEŁNIIĆ INFORMACJE NA PODSTRONACH
+-PODSTRONA FAQ
+- ... 
+*/
